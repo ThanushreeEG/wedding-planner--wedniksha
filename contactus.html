@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	background-image: url("flower.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+	}
+h2{ font-size: 1.9em; color:blue; }
+#nav{
+	width: 40%;
+	display: inline-block;
+	text-align: right;
+	float: right;
+}
+	#nav ul{
+		position:absolute;
+		top:calc(15% - 75px);
+		right:calc(10% - 50px);
+		}
+
+			#nav ul li{
+			display: inline-block;
+			height: 62px;
+		}
+			#nav ul li a{
+				padding: 16px;
+				background: blue;
+				color: white;
+			}
+			#nav ul li a:hover{
+				background-color: blue;
+				box-shadow: 0px 1px 1px #666;
+			}
+			#nav ul li a:active{ background-color: blue; }
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+input[type=reset] {
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=reset]:hover {
+    background-color: #45a049;
+}
+			#nav ul li a{
+				padding: 12px;
+				background: darkblue;
+				color: white;
+			}
+
+
+
+#main-footer{
+	width: 98.4%;
+	background: darkblue;
+	opacity: 0.8;
+	color: white;
+	padding: 10px;
+}
+.footer{
+		float: left;
+		text-align: center;
+		width: 33.3%;
+		padding: 10px;
+		border-right: 1px solid white;
+		box-sizing: border-box;
+		position:relative;
+}
+
+#main-footer #abc{
+	border: none;
+}
+
+#main-footer .copyright{
+	text-align:right;
+	padding-top: 0px;
+	font-size: 20px;
+}
+
+</style>
+
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/7DCABD6F-0B2C-814C-A455-49B72C1B82D1/main.js" charset="UTF-8"></script>
+<link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/1D28B1C27B94-554A-C418-C2B0-F6DBACD7/abn/main.css"/>
+</head>
+
+
+<body>
+		<div id="nav" >
+			<ul>
+				<li><a href="sempro.html"><img src="https://fontmeme.com/permalink/171118/2fa28d71cb9906557f3df340790e65f7.png" alt="calligraphy-fonts" border="0"></a></li>
+				<li><a href="about.html"><img src="https://fontmeme.com/permalink/171118/b63d6318e5180017dfd30c6686f21e49.png" alt="calligraphy-fonts" border="0"></a></li>
+				<li><a href="contactus.html"><img src="https://fontmeme.com/permalink/171118/883ece59aa5d01529a592042f7c5223a.png" alt="calligraphy-fonts" border="0"></a></li>
+				<li><a href="services.html"><img src="https://fontmeme.com/permalink/171118/5478a1378d90868a4e5d667894e97651.png" alt="calligraphy-fonts" border="0"></a></li>
+				<li><a href="gallery.html"><img src="https://fontmeme.com/permalink/171118/1c74313ee24f97e2eaa3b3413be53e52.png" alt="calligraphy-fonts" border="0"></a></li>
+				<li><a href="mapus.html"><img src="https://fontmeme.com/permalink/171118/d04af29d5a92492ed0828e08db95d71c.png" alt="calligraphy-fonts" border="0"></a></li>
+				<li><a href="index1.php"><img src="https://fontmeme.com/permalink/171118/49d921bbbd405be912289e74656e16ce.png" alt="calligraphy-fonts" border="0"></a></li>		</div>
+<img src="https://fontmeme.com/permalink/171115/4577b2094529734c353078a3bc5348c6.png" alt="calligraphy-fonts" border="0"></a><div class="container">
+<div class="container" style="width:800px;height:50%;">
+
+  <form action="sub.html" onsubmit="return myform()" method="post" name="form">
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+  <label for="lname">Last Name:</label>
+    <input type="text" id="lname"name="lastname" placeholder="Your last name.."><br>
+	
+	<label for="email">E-mail:</label>
+	<input type="email" id="email" size="110" name="email"><br><br>
+  <label for="Datef">Dates : From</label>
+<input type ="date"  name="date1" size="210"> To:<input type ="date"  name="date2" size="210"> <br/> <br/>
+   
+
+    <label for="State">State:</label>
+    <select id="state" name="state">
+      <option value="Karnataka">Karnataka</option>
+      <option value="AndraPradesh">AndraPradesh</option>
+<option value="Telangana">Telangana</option>
+      <option value="Goa">Goa</option>
+<option value="TamilNadu">TamilNadu</option>
+<option value="Kerala">Kerala</option>
+<option value="UttarPradesh">UttarPradesh</option>
+    </select>
+
+    <label for="subject">Requirements:</label>
+    <textarea id="subject" name="subject" placeholder="Mention Your Requirements." style="height:150px"></textarea>
+
+   <input type="submit" value="Submit"> 
+    <input type="reset" value="Reset"> 
+
+  </form>
+</div>
+
+
+<script>
+function myform()
+{
+	var x = document.forms["form"]["firstname"].value;
+	if(x=="")
+	{alert("First Name must be filled out");
+	return false;}
+	
+	var y = document.forms["form"]["lastname"].value;
+	if(y=="")
+	{alert("Last name must be filled out too");
+	return false;
+	}
+	
+	var z = document.forms["form"]["email"].value;
+	if(z=="")
+	{alert("Please provide your mail id");
+	return false;
+	}
+var d1 = document.forms["form"]["date1"].value;
+	if(d1=="")
+	{alert("Please provide your dates");
+	return false;
+	}
+var d2 = document.forms["form"]["date2"].value;
+	if(d2=="")
+	{alert("Please provide your dates");
+	return false;
+	}
+	
+	return true;
+
+
+	
+}
+</script>
+</body><br /><br /><br /><br /><br />
+<footer id="main-footer">
+<div class="footer">
+			<h3>Invitation</h3>
+			<p>Block your dates | E-invite | Invitation creative & co-ordination </p>
+			<h3>Digital & Social-media</h3>
+			<p>Facebook | Twitter & Webpage | Whatsapp | Instagram</p>
+		</div>
+		<div class="footer">
+			<h3>Decor</h3>
+			<p>Entrance & Ambience | Buffet Decor | Florals</p>
+			<h3>Food & Beverages</h3>
+			<p>Menu Selection | Food tasting | Wine & Spirit Selection</p>
+		</div>
+		<div class="footer" id="abc">
+			<h3>Technical & Production Personnel</h3>
+			<p>Sound | Light | Audio-Visual | Videographer | Photographer </p>
+			<h3>Entertainment & Special Effects </h3>
+			<p>Pyros | Fireworks | Special Entries | Dhandiya | Dance Floors</p>
+			
+		</div>
+		<div>
+			&nbsp
+		</div>
+		<div class="copyright">
+			<center><p>Copyright &copy WeddingWindow</p></center>
+		</div>
+	</footer>
+</html>
